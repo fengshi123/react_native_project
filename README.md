@@ -1,20 +1,24 @@
 ## 一、框架介绍
 
-react-native 项目用得框架以及插件版本号如下所示：
+（1）react-native 项目用得框架以及插件版本号如下所示：
 
-**node.js 版本为：11.12.0**
+| 工具名称       | 版本号  |
+| -------------- | ------- |
+| node.js        | 11.12.0 |
+| npm            | 6.7.0   |
+| yarn           | 1.17.3  |
+| Android Studio | 3.4.1   |
+| JDK            | 1.8     |
+| react          | 16.8.6  |
+| react-native   | 0.60.5  |
 
-**npm 版本为：6.7.0**
+（2）项目的主要功能点如下：
 
-**yarn 版本为：1.17.3（推荐使用 yarn 安装依赖包，速度比 npm 不知道快多少）**
+![1](.\src\assets\images\1.png)
 
-**react 版本为： 16.8.6（谨记版本号，不同的版本很多写法不同，避免踩坑）**
+（3）项目完成的一些功能界面如下所示：
 
-**react-native: 0.60.5（谨记版本号，不同的版本很多写法不同，避免踩坑）**
-
-**Android Studio: 3.4**
-
-**java 版本：1.8**
+![1](.\src\assets\images\2.jpg)
 
 
 
@@ -42,30 +46,31 @@ $ npm start
 7、本项目的服务端接口为本作者的另一开源项目：https://github.com/fengshi123/express_project
 ```
 
-
 ## 三、项目结构
 
-> ├─ .vscode				编辑器配置						    
-> ├─ android				android 原生目录
-> ├─ ios					ios 原生目录
-> ├─node_modules		项目依赖包
-> ├─ src                                    代码主目录				
-> │  ├─assets				存放样式文件
-> │  │  ├─images                     存放图片
-> │  │  └─styles			样式文件的 js 目录
-> │  │  ├─index.js                     存放图片路径，可以参照主页面模块写法
-> │  ├─components		存放块级组件	
-> │  ├─navigation			存放导航配置		
-> │  │  ├─ index.js			导航配置主文件			
-> │  ├─pages			        存放页面级组件，不同模块不同目录
-> │  └─utils				存放工具方法		
-> │  │  ├─ constant.js             一些常量配置，例如：服务器 IP 端口等
-> │  │  ├─ globalVar.js            一些全部变量
-> │  │  └─ request.js		 ajax 请求			
-> ├─.eslintrc.js			         eslint 配置	
-> ├─.gitignore.js			git 忽略配置							
-> ├─index.js			        项目入口
-> ├─package.json		        项目依赖包配置
+```
+├─ .vscode			编辑器配置						    
+├─ android			android 原生目录
+├─ ios			    ios 原生目录
+├─node_modules		 项目依赖包
+├─ src               代码主目录				
+│  ├─assets			存放样式文件
+│  │  ├─images       存放图片
+│  │  └─styles		样式文件的 js 目录
+│  │  ├─index.js     存放图片路径，可以参照主页面模块写法
+│  ├─components		存放块级组件	
+│  ├─navigation		存放导航配置		
+│  │  ├─ index.js	导航配置主文件			
+│  ├─pages			存放页面级组件，不同模块不同目录
+│  └─utils			存放工具方法		
+│  │  ├─ constant.js   一些常量配置，例如：服务器 IP 端口等
+│  │  ├─ globalVar.js  一些全部变量
+│  │  └─ request.js	   ajax 请求			
+├─.eslintrc.js		 eslint 配置	
+├─.gitignore.js		 git 忽略配置							
+├─index.js			项目入口
+├─package.json		项目依赖包配置
+```
 
 
 
