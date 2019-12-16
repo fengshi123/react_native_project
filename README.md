@@ -18,7 +18,7 @@
 
 （3）项目完成的一些功能界面如下所示：
 
-![1](.\src\assets\images\2.jpg)
+![2](.\src\assets\images\2.jpg)
 
 
 
